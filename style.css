@@ -1,0 +1,1035 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+section {
+    width: 100%;
+    height: 120vh;
+    background-image: url(slide-1\(2\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    width: 100%;
+    height: 20vh;
+}
+
+header div {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+}
+
+.head:nth-child(2) {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 1px solid gray;
+}
+
+.nav {
+    width: 50%;
+    height: 10vh;
+}
+
+.nav:nth-child(1) {
+    width: 55%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.nav:nth-child(2) {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+}
+
+.icons {
+    width: 350px;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    width: 90px;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    color: #fff;
+}
+
+.icon h1 {
+    margin-top: 5px;
+    font-size: 10px;
+}
+
+.icon i {
+    font-size: 15px;
+}
+
+p {
+    letter-spacing: 2px;
+}
+
+span {
+    font-weight: 700;
+}
+
+.frap a {
+    text-decoration: none;
+}
+
+.frap {
+    width: 100px;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frap h1 {
+    font-size: 15px;
+}
+
+.frap:nth-child(3) {
+    width: 160px;
+}
+
+.frap:hover {
+    background-color: #fff;
+}
+
+
+.frap:nth-child(2) {
+    flex-direction: column;
+}
+
+.frap:nth-child(2):hover {
+    width: 230px;
+    height: 500px;
+    justify-content: start;
+    align-items: start;
+    margin-top: 500px;
+}
+
+.frap:nth-child(2) .boxs {
+    width: 230px;
+    height: 490px;
+    background-color: #47B370;
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
+.frap:nth-child(2):hover .boxs {
+    display: block;
+}
+
+.frap:nth-child(2) .box {
+    width: 230px;
+    height: 50px;
+    background-color: white;
+    display: none;
+}
+
+.frap:nth-child(2) .box:hover {
+    background-color: #0094D9;
+
+}
+
+.frap:nth-child(2):hover .box {
+    display: block;
+
+}
+
+.frap:hover .text-light {
+    color: black !important;
+}
+
+.center {
+    width: 500px;
+    height: 350px;
+    margin: auto;
+    margin-top: 70px;
+}
+
+#ahref {
+    width: 200px;
+    height: 60px;
+    margin-top: 15px;
+    margin-left: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+
+#ahref:hover {
+    color: #0094D9;
+
+}
+
+.center p {
+    width: 200px;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+
+.center p:nth-child(1) {
+    font-size: 30px;
+}
+
+.center h1 {
+    font-family: "open sans", sans-serif;
+    letter-spacing: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 60px;
+}
+
+.center h1 br {
+    display: none;
+}
+
+aside {
+    width: 100%;
+    height: 85vh;
+    background-color: #E6E6E6;
+}
+
+aside img {
+    margin-top: 50px;
+    margin-left: 600px;
+}
+
+aside h1 {
+    font-family: "open sans", sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: 50px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+aside h1:nth-child(3) {
+    font-size: 10px;
+}
+
+aside h1:nth-child(3) br {
+    display: none;
+}
+
+
+.cards {
+    width: 86%;
+    height: 170px;
+    margin-left: 7%;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.card {
+    width: 90%;
+    height: 170px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(50%);
+    color: white !important;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.card:hover {
+    filter: none;
+    border-bottom: 5px solid #0094D9;
+}
+
+.card:nth-child(1) {
+    background-image: url(https://frap-russia.ru/img/frap-russia.ru/about-1.jpg) !important;
+}
+
+.card:nth-child(2) {
+    background-image: url(https://frap-russia.ru/img/frap-russia.ru/about-2.jpg) !important;
+}
+
+.card:nth-child(3) {
+    background-image: url(https://frap-russia.ru/img/frap-russia.ru/about-3.jpg) !important;
+}
+
+.card:nth-child(4) {
+    background-image: url(https://frap-russia.ru/img/frap-russia.ru/about-4.jpg) !important;
+}
+
+.card:nth-child(5) {
+    background-image: url(https://frap-russia.ru/img/frap-russia.ru/about-5.jpg) !important;
+}
+
+.card:nth-child(6) {
+    background-image: url(https://frap-russia.ru/img/frap-russia.ru/about-6.jpg) !important;
+}
+
+#ahref2 {
+    width: 200px;
+    height: 60px;
+    margin-top: 50px;
+    margin-left: 42%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+#ahref2:hover {
+    color: #0094D9 !important;
+}
+
+aside:nth-child(3) {
+    width: 100%;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-image: url(https://frap-russia.ru/img/frap-russia.ru/collection.jpg);
+    background-size: cover;
+}
+
+.border {
+    margin-top: 50px;
+    margin-left: 650px;
+}
+
+#icon {
+    position: absolute;
+    margin-top: -20px !important;
+    margin-left: -8px !important;
+}
+
+button {
+    width: 30px;
+    height: 40px;
+    background-color: transparent;
+}
+
+#aside_h1 {
+    font-size: 45px;
+    margin-top: 20px;
+}
+
+p {
+    text-align: center;
+}
+
+#ahref3 {
+    width: 200px;
+    height: 60px;
+    margin-top: 50px;
+    margin-left: 42%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+#ahref3:hover {
+    color: #47B370 !important;
+}
+
+aside:nth-child(4) {
+    height: 20vh;
+    display: flex;
+    align-items: center;
+}
+
+address {
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+address h1:nth-child(1),
+address h1:nth-child(3) {
+    font-size: 10px;
+    font-weight: 700;
+}
+
+address h1 a {
+    text-decoration: none;
+}
+
+/* aside-5 content */
+aside:nth-child(5) {
+    width: 100%;
+    height: 150vh;
+}
+
+.content {
+    width: 86%;
+    height: 550px;
+    margin-left: 7%;
+    display: flex;
+    gap: 50px;
+}
+
+.content div {
+    width: 100%;
+    height: 100%;
+    background: no-repeat content-box;
+    filter: brightness(50%);
+}
+
+.content div:hover {
+    filter: none;
+}
+
+.content div:nth-child(1):hover {
+    border-bottom: 5px solid #0094D9;
+}
+
+.cont2 .con:nth-child(1):hover {
+    border-bottom: 5px solid #47B370;
+}
+
+.cont2 .con:nth-child(2):hover {
+    border-bottom: 5px solid yellow;
+}
+
+.cont2 {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.con {
+    width: 100%;
+    height: 270px;
+}
+
+.content .cont:nth-child(1) {
+    background-image: url(https://frap-russia.ru/img/frap-russia.ru/grid-1.jpg);
+}
+
+.content .con:nth-child(1) {
+    background-image: url(https://frap-russia.ru/img/frap-russia.ru/grid-2.jpg);
+}
+
+.content .con:nth-child(2) {
+    background-image: url(https://frap-russia.ru/img/frap-russia.ru/grid-3.jpg);
+}
+
+.content p {
+    margin-top: 20px;
+    margin-left: 500px;
+}
+
+#cont_h1 {
+    font-size: 45px;
+    letter-spacing: 0px;
+    margin-top: 400px;
+    text-align: left;
+    margin-left: 40px;
+    text-transform: capitalize;
+}
+
+#cont_h1_2 {
+    font-size: 30px;
+    letter-spacing: 0px;
+    margin-top: 130px;
+    text-align: left;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+
+#cont_h1_3 {
+    font-size: 30px;
+    letter-spacing: 0px;
+    margin-top: 130px;
+    text-align: left;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+
+#cont_p {
+    margin-left: 0px !important;
+    margin-top: 0px;
+    text-transform: uppercase;
+}
+
+
+/* content2 */
+.content2 {
+    width: 86%;
+    height: 360px;
+    margin-left: 7%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content2 .content2_cont {
+    width: 32%;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.content2_cont:nth-child(2) {
+    filter: brightness(50%);
+    background-image: url(https://frap-russia.ru/img/frap-russia.ru/grid-6.jpg);
+}
+
+.content2_cont:nth-child(3) {
+    filter: brightness(50%);
+    background-image: url(https://frap-russia.ru/img/frap-russia.ru/grid-7.jpg);
+    margin-right: -5px;
+}
+
+.content2_cont .cont_con {
+    width: 100%;
+    filter: brightness(50%);
+    height: 170px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.content2_cont .cont_con:nth-child(1) {
+    background-image: url(https://frap-russia.ru/img/frap-russia.ru/grid-4.jpg);
+}
+
+.content2_cont .cont_con:nth-child(2) {
+    background-image: url(https://frap-russia.ru/img/frap-russia.ru/grid-5.jpg);
+}
+
+.content2 div:hover {
+    filter: none;
+}
+
+.content2_cont:nth-child(2):hover {
+    border-bottom: 5px solid red;
+}
+
+.content2_cont:nth-child(3):hover {
+    border-bottom: 5px solid #0094D9;
+}
+
+.cont_con:nth-child(1):hover {
+    border-bottom: 5px solid #47B370;
+}
+
+.cont_con:nth-child(2):hover {
+    border-bottom: 5px solid yellow;
+}
+
+.content2 p {
+    font-size: 10px;
+}
+
+.content2_cont .cont_con p,
+.content2 p {
+    margin-top: 20px;
+    margin-left: 300px;
+}
+
+/* aside-6 */
+aside:nth-child(6) {
+    width: 100%;
+    height: 80vh;
+    background: url(https://frap-russia.ru/img/frap-russia.ru/dealer.jpg);
+    text-align: center;
+}
+
+aside:nth-child(6) i {
+    font-size: 50px;
+    margin-left: px;
+    color: darkred;
+    margin-top: 50px;
+}
+
+aside:nth-child(6) h1 {
+    letter-spacing: 5px;
+}
+
+aside:nth-child(6) p {
+    text-transform: uppercase;
+}
+
+aside:nth-child(6) #aside_p {
+    text-transform: unset;
+    font-size: 14px;
+}
+
+#ahref4 {
+    width: 200px;
+    height: 60px;
+    margin-top: 50px;
+    margin-left: 42%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+#ahref4:hover {
+    color: red !important;
+}
+
+#cont_h1_4 {
+    font-size: 20px;
+    letter-spacing: 0px;
+    margin-top: 70px;
+    text-align: left;
+    margin-left: 30px;
+    text-transform: unset;
+}
+
+#cont_h1_5 {
+    font-size: 20px;
+    letter-spacing: 0px;
+    margin-top: 130px;
+    text-align: left;
+    margin-left: 40px;
+    text-transform: unset;
+}
+
+@media screen and (max-width:480px) {
+    section {
+        width: 100%;
+        height: 100vh;
+        background-position: center;
+        background-size: cover;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    .nav:nth-child(1) {
+        width: 50%;
+        justify-content: center;
+    }
+
+    .nav:nth-child(2) {
+        width: 50%;
+    }
+
+    .icons {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .icon:nth-child(1) {
+        width: 80px;
+    }
+
+    .icon {
+        width: 30px;
+    }
+
+    .head:nth-child(2) .frap {
+        display: none;
+    }
+
+    .center p {
+        width: 100px;
+    }
+
+    .center p:nth-child(1) {
+        font-size: 20px;
+    }
+
+    .center p:nth-child(2) {
+        font-size: 15px;
+    }
+
+    .center h1 {
+        margin-top: 20px;
+        font-size: 25px;
+    }
+
+    .center h1 br {
+        display: block;
+    }
+
+    #ahref {
+        margin-top: 50px;
+    }
+
+    /* aside */
+    aside {
+        width: 100%;
+        height: 135vh;
+    }
+
+    aside img {
+        margin-top: 30px;
+        margin-left: 190px;
+    }
+
+    aside h1 {
+        font-size: 25px;
+    }
+
+    aside h1:nth-child(3) {
+        font-size: 15px;
+    }
+
+    aside h1:nth-child(3) br {
+        display: block;
+    }
+
+    .cards {
+        height: 530px;
+        gap: 10px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #ahref2 {
+        margin-left: 130px;
+    }
+
+    .border {
+        margin-left: 50%;
+    }
+
+    aside:nth-child(3) .text-light {
+        width: 70%;
+        font-size: 10px;
+        margin-left: 15%;
+    }
+
+    #ahref3 {
+        margin-top: 10px;
+        margin-left: 30%;
+    }
+
+    aside:nth-child(5) {
+        width: 100%;
+        height: 370vh;
+    }
+
+    .content {
+        width: 100%;
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .content p {
+        margin-left: 300px;
+    }
+
+    .content2 {
+        width: 100%;
+        flex-direction: column;
+        margin-top: 650px;
+        height: 180vh;
+        margin-left: 0;
+    }
+
+    .content2_cont:nth-child(1) {
+        height: 450px;
+        width: 100% !important;
+    }
+
+    .content2_cont:nth-child(2),
+    .content2_cont:nth-child(3) {
+        /* margin-left: 0; */
+        width: 100% !important;
+        background-size: cover;
+    }
+
+    .cont_con {
+        width: 100% !important;
+        height: 210px !important;
+        background-size: cover !important;
+    }
+
+    aside:nth-child(6) {
+        width: 100%;
+    }
+
+    aside:nth-child(6) h1 {
+        font-size: 15px;
+    }
+
+    aside:nth-child(6) p {
+        font-size: 10px;
+    }
+
+    aside:nth-child(6) #aside_p {
+        width: 70%;
+        margin-left: 15%;
+        font-size: 13px;
+    }
+
+    aside:nth-child(6) #aside_p br {
+        display: none;
+    }
+
+    #ahref4 {
+        margin-left: 120px;
+    }
+}
+
+@media screen and (max-width:768px) and (min-width:481px) {
+    section {
+        height: 100vh;
+        background-position: center;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    .nav:nth-child(1) {
+        width: 50%;
+        justify-content: center;
+    }
+
+    .nav:nth-child(2) {
+        width: 50%;
+    }
+
+    .icons {
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .icon:nth-child(1) {
+        width: 80px;
+    }
+
+    .icon {
+        width: 30px;
+    }
+
+    .frap:nth-child(2):hover {
+        width: 150px;
+    }
+
+    .frap:nth-child(2):hover .boxs {
+        width: 150px;
+    }
+
+    .frap:nth-child(2):hover .box {
+        width: 150px;
+    }
+
+    .frap:nth-child(3):hover {
+        width: 110px;
+    }
+
+    .head:nth-child(2) .frap a h1 {
+        font-size: 10px !important;
+    }
+
+    .center p {
+        width: 100px;
+    }
+
+    .center p:nth-child(1) {
+        font-size: 35px;
+    }
+
+    .center p:nth-child(2) {
+        font-size: 20px;
+    }
+
+    .center h1 {
+        margin-top: 20px;
+        font-size: 50px;
+    }
+
+    .center h1 br {
+        display: block;
+    }
+
+    #ahref {
+        margin-top: 50px;
+    }
+
+    /* aside */
+    aside {
+        width: 100%;
+        height: 140vh;
+    }
+
+    aside img {
+        margin-top: 20px;
+        margin-left: 350px;
+    }
+
+    aside h1 {
+        font-size: 45px;
+    }
+
+    aside h1:nth-child(3) {
+        font-size: 25px;
+    }
+
+    aside h1:nth-child(3) br {
+        display: block;
+    }
+
+    .cards {
+        height: 530px;
+        gap: 10px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    #ahref2 {
+        margin-left: 35%;
+    }
+
+    aside:nth-child(3) {
+        height: 80vh;
+    }
+
+    .border {
+        margin-left: 50%;
+    }
+
+    aside:nth-child(3) .text-light {
+        width: 70%;
+        font-size: 15px;
+        margin-left: 15%;
+    }
+
+    aside:nth-child(3) .text-light br {
+        display: none;
+    }
+
+    #ahref3 {
+        margin-top: 10px;
+        margin-left: 35%;
+    }
+
+    address h1 {
+        font-size: 30px;
+    }
+
+    address h1:nth-child(1),
+    address h1:nth-child(3) {
+        font-size: 12px;
+
+    }
+
+
+    aside:nth-child(5) {
+        width: 100%;
+        height: 310vh;
+    }
+
+    .content {
+        width: 100%;
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .content .cont {
+        width: 100%;
+        background-size: cover;
+    }
+
+    .content .cont2 {
+        width: 100%;
+        height: 700px;
+    }
+
+    .content .cont2 .con {
+        width: 100%;
+        height: 350px;
+        background-size: cover;
+
+    }
+
+    .content p {
+        font-size: 30px;
+        margin-left: 600px;
+    }
+
+    #cont_p {
+        font-size: 15px;
+        text-align: left;
+        margin-left: 50px !important;
+    }
+
+    .content2 {
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 800px;
+        height: 100vh;
+    }
+
+    .content2_cont:nth-child(1) {
+        flex-direction: row !important;
+        width: 100% !important;
+        height: 250px !important;
+    }
+
+    .cont_con {
+        height: 250px !important;
+        background-size: cover !important;
+    }
+
+    .content2_cont:nth-child(3),
+    .content2_cont:nth-child(2) {
+        width: 50%;
+        background-size: cover;
+    }
+
+    .cont_con {
+        width: 100% !important;
+    }
+
+    aside:nth-child(6) h1 {
+        font-size: 25px;
+    }
+
+    aside:nth-child(6) p {
+        font-size: 15px;
+    }
+
+    aside:nth-child(6) #aside_p {
+        width: 70%;
+        margin-left: 15%;
+        font-size: 15px;
+    }
+
+    aside:nth-child(6) #aside_p br {
+        display: none;
+    }
+
+    #ahref4 {
+        margin-left: 270px;
+    }
+}
